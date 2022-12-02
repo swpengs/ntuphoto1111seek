@@ -8,6 +8,8 @@ body {
 #banner {
     background-color: #383838;
     height: 30vh;
+    padding-left: 50px; 
+    padding-right: 50px; 
 }
 
 .title {
@@ -15,11 +17,10 @@ body {
     font-weight: bold;
 }
 
-.container2{
-    padding-left: 500px; 
-    padding-right: 500px;  
+.card{
+    width: 100vh;
+    margin:0 auto;
 }
-
 /* ----------------------------FB IG links---------------------- */
 #iconmenu2 {
     float: right;

@@ -15,9 +15,9 @@ body {
     font-weight: bold;
 }
 
-.container2{
-    padding-left: 500px; 
-    padding-right: 500px;  
+.card{
+    width: 100vh;
+    margin:0 auto;
 }
 
 /* ----------------------------FB IG links---------------------- */
