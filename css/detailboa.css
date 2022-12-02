@@ -8,6 +8,7 @@ body {
 #banner {
     background-color: #383838;
     height: 40vh;
+    margin:0 auto;
 }
 
 .title {
@@ -17,6 +18,10 @@ body {
 
 .card{
     width: 100vh;
+    margin:0 auto;
+}
+
+.d-grid gap-2 col-6 mx-auto{
     margin:0 auto;
 }
 /* ----------------------------FB IG links---------------------- */

@@ -8,6 +8,7 @@ body {
 #banner {
     background-color: #383838;
     height: 35vh;
+    margin:0 auto;
 }
 
 .title {
@@ -20,6 +21,9 @@ body {
     margin:0 auto;
 }
 
+.d-grid gap-2 col-6 mx-auto{
+    margin:0 auto;
+}
 /* ----------------------------FB IG links---------------------- */
 #iconmenu2 {
     float: right;
