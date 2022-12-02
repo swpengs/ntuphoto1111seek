@@ -2,13 +2,14 @@ body {
     font-family: Microsoft JhengHei;
     background-color: #383838;
     padding-top: 150px; 
-    padding-bottom: 80px;  
 }
 
 #banner {
     background-color: #383838;
     height: 30vh; 
     margin:0 auto;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .title {
@@ -54,113 +55,8 @@ body {
     float: left;
     margin-left: 15px;
 }
+/* --------------------------------------------- */
 
-
-/* -----------------------footer----------------------- */
-footer p {
-    font-family: "微軟正黑體", sans-serif;
-    float: left;
-    position: relative;
-    margin-top: 3.2em;
-    margin-left: 7em;
-    font-size: 0.3em;
-    right: 2px;
-    color: #ffffff;
-}
-
-#iconmenu {
-    float: right;
-}
-
-#iconmenu ul {
-    margin: 0;
-    padding: 0;
-    position: relative;
-    bottom: 15px;
-
-}
-
-#iconmenu li {
-    display: inline;
-    list-style-type: none;
-    margin-right: 2em;
-
-}
-
-#iconmenu img {
-    margin-top: 1.5em;
-    border: none;
+#mb-4 img {
     width: 25px;
-}
-
-#iconmenu li a {
-    /*icon間距*/
-    float: left;
-    margin-left: 15px;
-}
-
-footer {
-    display: block;
-    position: fixed;
-    bottom: 0;
-    background: #2f3031;
-    height: 45px;
-    width: 100%;
-}
-
-@media screen and (max-device-width: 1200px) {
-    /*footer {
-    background-color: #2f3031;
-    padding: 0.3em; 
-    box-sizing: border-box;
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
-
-    }*/
-
-    footer {
-        position: fixed;
-        bottom: 0;
-        background: #2f3031;
-        padding: 0.3em;
-        height: 45px;
-        width: 100%;
-        overflow: hidden;
-    }
-
-    .desk {
-        display: none !important;
-    }
-}
-
-@media screen and (min-device-width: 1201px) {
-    .mobile {
-        display: none;
-        !important;
-    }
-}
-
-@media screen and (max-device-width: 420px) {
-
-    .column {
-        float: none;
-        width: auto;
-    }
-
-
-    nav {
-        float: center;
-        text-align: center;
-        right: 80px;
-    }
-
-    #site {
-        display: none;
-    }
-
-    .content {
-        padding-top: 4em;
-    }
-
 }
